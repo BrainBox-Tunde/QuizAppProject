@@ -143,7 +143,7 @@ function showResult(){
     result_box.classList.add("activeResult"); //show result box
     const scoreText = result_box.querySelector(".score_txt");
     if (userScore > 3){
-        let scoreTag = '<span>and congrats! 🎉, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>and congrats! 🎉, You got '+ userScore +' out of '+ questions.length +'</span>';
         scoreText.innerHTML = scoreTag;  
     }
     else if(userScore > 1){ 
